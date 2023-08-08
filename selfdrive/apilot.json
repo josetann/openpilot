@@ -621,7 +621,7 @@
       "etitle": "Car lane change speed (30)",
       "edescr": "Car lane change only at the specified speed or higher",
       "min": 5,
-      "max": 60,
+      "max": 160,
       "default": 30,
       "unit": 5
     },
