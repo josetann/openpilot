@@ -48,7 +48,7 @@ class DesireHelper:
     self.prev_leftBlinker = False
     self.prev_rightBlinker = False
     self.desireEvent = 0
-    self.needTorque = True
+    self.needTorque = False
     self.desireReady = 0
     self.left_road_edge = 0.0
     self.right_road_edge = 0.0
@@ -196,7 +196,7 @@ class DesireHelper:
     direction = nav_direction = LaneChangeDirection.none
     nav_turn = False
     nav_event = 0
-    need_torque = 1
+    need_torque = 0
     if self.autoTurnControl > 0:
       nav_distance = navInstruction.maneuverDistance
       nav_type = navInstruction.maneuverType
